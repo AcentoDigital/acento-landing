@@ -4,123 +4,117 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Acento Digital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
+      background-color: #ffffff;
+      color: #4C5A66;
     }
     header {
       background-color: #ffffff;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      padding: 1rem 2rem;
+      text-align: center;
     }
-    header img.logo {
-      height: 60px;
+    header img {
+      max-width: 220px;
     }
     .hero {
-      position: relative;
-      text-align: left;
+      background: url('Foto Landing correcta.png') no-repeat center/cover;
       color: white;
+      padding: 6rem 2rem;
+      text-align: center;
     }
-    .hero img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .hero-text {
-      position: absolute;
-      top: 15%;
-      left: 5%;
-      max-width: 600px;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 2rem;
-      border-radius: 8px;
-    }
-    .hero-text h1 {
-      font-size: 2rem;
+    .hero h1 {
+      font-size: 2.5rem;
       margin-bottom: 1rem;
     }
-    .hero-text p {
+    .hero p {
       font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
     }
-    .section {
-      padding: 2rem;
-      max-width: 960px;
-      margin: auto;
-      background-color: #ffffff;
-      margin-top: 1rem;
-      border-radius: 8px;
-    }
-    .section h2 {
-      color: #333333;
-    }
-    .section ul {
-      list-style-type: disc;
-      padding-left: 1.5rem;
-    }
-    .cta-button {
-      background-color: #003366;
+    .cta {
+      background-color: #DD623A;
       color: white;
       padding: 1rem 2rem;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
       display: inline-block;
-      margin-top: 1rem;
+      margin-top: 2rem;
+      border-radius: 5px;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    section h2 {
+      color: #DD623A;
+    }
+    section ul {
+      padding-left: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 2rem;
+      color: #aaa;
+      background-color: #f8f8f8;
+      margin-top: 4rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="Acento-Digital_Logo.jpg" alt="Acento Digital Logo" class="logo" />
+    <img src="Acento-Digital_Logo.jpg" alt="Acento Digital Logo">
   </header>
 
   <section class="hero">
-    <img src="Foto Landing corretta.png" alt="Clientes escaneando en farmacia" />
-    <div class="hero-text">
-      <h1>La experiencia inteligente para farmacias físicas</h1>
-      <p>
-        Ayudamos a tus clientes a elegir mejor con pantallas interactivas, códigos QR y sugerencias impulsadas por inteligencia artificial.
-      </p>
-      <a href="#" class="cta-button">Descarga nuestra presentación</a>
-    </div>
+    <h1>La experiencia inteligente para farmacias físicas</h1>
+    <p>Ayudamos a tus clientes a elegir mejor con pantallas interactivas, códigos QR y sugerencias impulsadas por inteligencia artificial.</p>
+    <a href="#" class="cta">Descargar brochure</a>
   </section>
 
-  <section class="section">
-    <h2>Problema</h2>
-    <ul>
-      <li>Los clientes reciben poca orientación en tienda</li>
-      <li>No hay recomendaciones personalizadas</li>
-      <li>Se pierde tiempo buscando productos</li>
-      <li>No hay datos sobre hábitos de compra</li>
-    </ul>
-  </section>
+  <main>
+    <section>
+      <h2>Problema</h2>
+      <ul>
+        <li>[Aquí describiremos los desafíos actuales en farmacias físicas]</li>
+        <li>[Ejemplo: falta de orientación clara al cliente]</li>
+        <li>[Ejemplo: poca diferenciación frente a competidores]</li>
+      </ul>
+    </section>
 
-  <section class="section">
-    <h2>Solución</h2>
-    <ul>
-      <li>Escaneo del producto con código QR</li>
-      <li>Recomendaciones automáticas con IA</li>
-      <li>Pantalla con información clara e interactiva</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Solución</h2>
+      <ul>
+        <li>[Aquí explicamos cómo funciona nuestra solución tecnológica]</li>
+        <li>[Ejemplo: escaneo de productos con códigos QR]</li>
+        <li>[Ejemplo: pantallas con información personalizada]</li>
+      </ul>
+    </section>
 
-  <section class="section">
-    <h2>Beneficios</h2>
-    <ul>
-      <li>Mejora la experiencia del cliente</li>
-      <li>Más ventas y recomendaciones inteligentes</li>
-      <li>Tecnología fácil de usar e implementar</li>
-    </ul>
-  </section>
+    <section>
+      <h2>Beneficios</h2>
+      <ul>
+        <li>[Mejora en la experiencia del cliente]</li>
+        <li>[Incremento en las ventas y fidelización]</li>
+        <li>[Análisis de comportamiento de compra]</li>
+      </ul>
+    </section>
 
-  <section class="section">
-    <h2>Quiénes somos</h2>
-    <p>Somos una empresa mexicana con experiencia en soluciones innovadoras para el comercio físico, especializada en inteligencia artificial aplicada al punto de venta.</p>
-  </section>
+    <section>
+      <h2>Quiénes somos</h2>
+      <p>[Breve descripción de Acento Digital, misión, visión y valores. Aquí hablaremos de nuestro enfoque en la innovación y el retail físico en México]</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Acento Digital. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
